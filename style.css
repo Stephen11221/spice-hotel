@@ -1,0 +1,225 @@
+.nav-bar {
+    margin-left: 20px;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+}
+
+.form-input {
+    width: 500px;
+    padding: 10px;
+    margin-top: 30px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+}
+
+.form-input:focus {
+    color: gray;
+    background: #fff;
+}
+
+.submit-btn {
+    width: 90px;
+    border-radius: 80px;
+    outline: none;
+    padding: 8px 9px;
+    color: rgb(255, 255, 255);
+    background: rgb(22, 160, 131);
+    margin-top: 30px;
+
+}
+
+footer {
+    width: 100%;
+    background: gray;
+    color: white;
+    display: block;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.checked {
+    color: goldenrod;
+}
+
+.person {
+    border-left: 10px solid rgba(139, 134, 134, 0.365);
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.bg-gray {
+    background: ghostwhite;
+}
+
+.food-img {
+    margin-left: 80px;
+    border-radius: 120px;
+    width: 150px;
+    height: 150px;
+}
+
+.buy-btn {
+    width: 90px;
+    background: greenyellow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 80px;
+    padding: 10px 5px;
+}
+
+.cc-row {
+    transition: all 600ms ease-in-out;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+
+.cc-row:hover {
+    cursor: pointer;
+    background: rgb(230, 226, 226);
+}
+
+.category-img {
+    margin-top: 50px;
+    width: 400px;
+    height: 240px;
+    transition: all 500ms ease;
+}
+
+.category-img:hover {
+    rotate: 4.6deg;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+section {
+    margin-top: 80px;
+}
+
+@media screen and (max-width:800px) {
+    .nav-bar {
+        margin-left: 0px;
+        border-bottom: 3px groove gray;
+        padding: 10px 10px;
+    }
+
+    .home-img {
+        width: 200px;
+    }
+
+    .category-img {
+        transition: all 600ms ease-in;
+        margin-top: 50px;
+    }
+
+    .category-img:hover {
+        rotate: 2.4deg;
+        margin-left: 35px;
+
+    }
+
+    .food-img {
+        width: 100px;
+        height: 90px;
+
+    }
+
+    .mobile {
+        width: 250px;
+        margin-top: -80px;
+        margin-left: 190px;
+    }
+
+    .mobile-img {
+        width: 350px;
+    }
+
+    form .form-input {
+        background: whitesmoke;
+        width: 350px;
+    }
+
+    .cc-row:hover {
+        margin-left: 1.2px;
+        background: white;
+    }
+
+    .cc-row {
+        animation: 2s inherit;
+        margin-left: -30px;
+    }
+
+    .sign-up {
+        margin-left: 100px;
+        width: 57%;
+        margin-top: 70px;
+    }
+}
+
+.primary {
+    color: rgb(90, 90, 94);
+}
+
+.table-responsive:hover {
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+.home-img {
+
+    border-top-right-radius: 350px;
+    border-top-left-radius: 250px;
+    height: 300px;
+    width: 400px;
+}
+
+.get-started {
+    border: 1px solid rgb(90, 90, 94);
+    color: rgb(90, 90, 94);
+    background: burlywood;
+    overflow: none;
+    outline: none;
+    width: 200px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.get-started:hover {
+    color: yellowgreen;
+    background: blue;
+}
+
+.sign-up .form-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+}
+
+.sign-up {
+    border-radius: 45px;
+    background: gainsboro;
+    padding: 20px 25px;
+    margin-top: 100px;
+    position: sticky;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.sign-up .subbtn {
+    width: 200px;
+    color: black;
+    border: none;
+    background: greenyellow;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.subbtn:hover {
+    background: green;
+    color: #fff;
+}
