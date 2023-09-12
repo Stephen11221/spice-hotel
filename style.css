@@ -6,7 +6,7 @@
 }
 
 .form-input {
-    width: 500px;
+
     padding: 10px;
     margin-top: 30px;
     border-right: none;
@@ -137,9 +137,13 @@ section {
         width: 350px;
     }
 
+    form {
+        width: 400px;
+    }
+
     form .form-input {
         background: whitesmoke;
-        width: 350px;
+        width: 200px;
     }
 
     .cc-row:hover {
